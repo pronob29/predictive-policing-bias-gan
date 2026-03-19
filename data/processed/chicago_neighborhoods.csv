@@ -1,0 +1,79 @@
+Neighborhood,N_Crimes,Pct_Black,Pct_White,Median_Income,Poverty_Rate,Race_Category
+Austin,12124,0.94,0.02,32000.0,0.35,Black
+Near North Side,10351,0.07,0.78,98000.0,0.07,White
+Near West Side,9301,0.35,0.42,58000.0,0.18,Neither
+South Shore,8238,0.92,0.03,33000.0,0.35,Black
+Loop,7790,0.08,0.68,88000.0,0.1,White
+West Town,7082,0.29,0.33,58000.0,0.18,Neither
+North Lawndale,6537,0.95,0.01,26000.0,0.44000000000000006,Black
+Auburn Gresham,6228,0.96,0.01,36000.0,0.27,Black
+Humboldt Park,6026,0.51,0.06,34000.0,0.35,Black
+Chatham,6024,0.97,0.01,38000.0,0.25,Black
+Greater Grand Crossing,5907,0.95,0.01,33000.0,0.33,Black
+Roseland,5883,0.9599999999999999,0.01,34000.0,0.32,Black
+Lake View,5698,0.03,0.85,92000.0,0.06,White
+Chicago Lawn,4786,0.32,0.11999999999999998,40000.0,0.27,Neither
+West Englewood,4714,0.96,0.01,28000.0,0.4,Black
+Englewood,4686,0.97,0.01,24000.0,0.45999999999999996,Black
+South Chicago,4355,0.52,0.08,35000.0,0.3,Black
+Belmont Cragin,4036,0.29,0.33,58000.0,0.18,Neither
+Logan Square,3996,0.14,0.62,72000.0,0.11,White
+Rogers Park,3968,0.24,0.42,48000.0,0.21,Neither
+West Ridge,3900,0.05,0.38,55000.0,0.18,Neither
+West Garfield Park,3837,0.96,0.009999999999999998,27000.0,0.42,Black
+Uptown,3779,0.18000000000000002,0.52,62000.0,0.15,White
+New City,3765,0.43,0.12000000000000001,38000.0,0.3,Neither
+South Lawndale,3760,0.1,0.05,40000.0,0.28,Neither
+East Garfield Park,3731,0.95,0.01,28000.0,0.4,Black
+Lincoln Park,3449,0.04,0.84,105000.0,0.05,White
+Grand Boulevard,3397,0.94,0.02,29000.0,0.4000000000000001,Black
+West Pullman,3345,0.95,0.01,33000.0,0.33,Black
+Woodlawn,3192,0.91,0.04,32000.0,0.36,Black
+Portage Park,2979,0.29,0.33,58000.0,0.18000000000000002,Neither
+Washington Heights,2892,0.89,0.04,42000.0,0.22,Black
+Edgewater,2836,0.1,0.6,65000.0,0.14,White
+Lower West Side,2807,0.29,0.33,58000.0,0.18,Neither
+Douglas,2759,0.79,0.12,42000.0,0.25,Black
+Irving Park,2574,0.29,0.33,58000.0,0.18,Neither
+Near South Side,2407,0.29,0.33,58000.0,0.18,Neither
+Washington Park,2222,0.96,0.01,24000.0,0.46,Black
+Albany Park,2162,0.29,0.33,58000.0,0.18,Neither
+Hyde Park,2082,0.3,0.48,72000.0,0.14,Neither
+Brighton Park,2080,0.29,0.33,58000.0,0.18,Neither
+Lincoln Square,1977,0.05,0.72,78000.0,0.08,White
+Ashburn,1964,0.29,0.33,58000.0,0.18,Neither
+Avondale,1958,0.29,0.33,58000.0,0.18,Neither
+Gage Park,1928,0.08,0.08,42000.0,0.26,Neither
+Garfield Ridge,1912,0.29000000000000004,0.33,58000.0,0.18,Neither
+Kenwood,1786,0.7399999999999999,0.17999999999999997,52000.0,0.17999999999999997,Black
+Morgan Park,1751,0.73,0.18,58000.0,0.12000000000000001,Black
+South Deering,1750,0.29,0.33,58000.0,0.18,Neither
+O'Hare,1640,0.29,0.33,58000.0,0.18,Neither
+West Lawn,1584,0.29,0.33,58000.0,0.18,Neither
+Dunning,1545,0.29,0.33,58000.0,0.17999999999999997,Neither
+Bridgeport,1529,0.07,0.42,55000.0,0.16,Neither
+Calumet Heights,1321,0.29,0.33,58000.0,0.18,Neither
+North Center,1317,0.02,0.8500000000000001,95000.0,0.05000000000000001,White
+Hermosa,1301,0.29,0.33,58000.0,0.18,Neither
+Riverdale,1256,0.97,0.01,22000.0,0.5,Black
+Norwood Park,1247,0.29,0.33,58000.0,0.18,Neither
+Avalon Park,1158,0.9600000000000001,0.01,42000.0,0.21,Black
+East Side,1150,0.29,0.33,58000.0,0.18,Neither
+Armour Square,1136,0.29,0.33,58000.0,0.18,Neither
+Jefferson Park,1048,0.29,0.33,58000.0,0.18,Neither
+Clearing,992,0.29,0.33,58000.0,0.18,Neither
+Archer Heights,992,0.29,0.33,58000.0,0.18,Neither
+North Park,973,0.29,0.33,58000.0,0.18,Neither
+Pullman,941,0.29,0.33,58000.0,0.18,Neither
+Beverly,875,0.25,0.68,82000.0,0.07,White
+West Elsdon,863,0.29,0.33,58000.0,0.18,Neither
+McKinley Park,860,0.29,0.33,58000.0,0.18,Neither
+Oakland,747,0.92,0.03,30000.0,0.38,Black
+Montclare,658,0.29,0.33,58000.0,0.18,Neither
+Fuller Park,631,0.9499999999999998,0.01,26000.0,0.44999999999999996,Black
+Hegewisch,608,0.29,0.33,58000.0,0.18,Neither
+Forest Glen,606,0.29,0.33,58000.0,0.18,Neither
+Mount Greenwood,528,0.02,0.92,85000.0,0.05,White
+Burnside,339,0.29,0.33,58000.0,0.18,Neither
+Edison Park,296,0.29,0.33,58000.0,0.18,Neither
+Unknown,30,0.29,0.33,58000.0,0.18,Neither

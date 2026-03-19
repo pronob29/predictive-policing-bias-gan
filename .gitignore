@@ -1,0 +1,46 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS artefacts ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Large raw data files (download instructions in README) ────────────────────
+data/raw/*.csv
+
+# ── Model checkpoints (not committed — reproducible from scripts) ─────────────
+*.pt
+*.pth
+*.pkl
+checkpoints/
+
+# ── Temporary / scratch ───────────────────────────────────────────────────────
+*.log
+*.tmp
+scratch/
+.DS_Store

@@ -1,0 +1,5 @@
+Variable,n,Pearson_r,Pearson_p,Spearman_r,Spearman_p
+Pct_Black,279,-0.814,0.0,-0.4282,0.0
+Pct_White,279,0.8302,0.0,0.4467,0.0
+Median_Income,279,0.6472,0.0,0.5203,0.0
+Poverty_Rate,279,-0.6439,0.0,-0.4559,0.0

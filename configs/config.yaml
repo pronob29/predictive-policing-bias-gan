@@ -1,0 +1,83 @@
+# =============================================================================
+# Experiment Configuration
+# GAN-Based Predictive Policing Bias Analysis
+# =============================================================================
+
+# ── Paths ─────────────────────────────────────────────────────────────────────
+paths:
+  data_raw:       data/raw
+  data_processed: data/processed
+  results:        results
+
+# ── Data ──────────────────────────────────────────────────────────────────────
+data:
+  baltimore:
+    raw_file:   baltimore_part1_crime.csv
+    years:      [2017, 2018, 2019]
+    bbox:
+      lat_min:  39.197
+      lat_max:  39.372
+      lon_min: -76.713
+      lon_max: -76.529
+  chicago:
+    raw_file:   chicago_crimes_2022.csv
+    year:       2022
+
+# ── GAN Architecture ──────────────────────────────────────────────────────────
+model:
+  noise_dim:    100
+  output_dim:   2          # (latitude, longitude)
+  generator:
+    hidden_dims: [256, 512, 256]
+    activation:  leaky_relu
+    output_activation: tanh
+  discriminator:
+    hidden_dims: [512, 256, 128]
+    activation:  leaky_relu
+    dropout:     0.3
+
+# ── Training ──────────────────────────────────────────────────────────────────
+training:
+  epochs:         200      # main simulation
+  epochs_chicago: 150      # Chicago (larger dataset, fewer epochs)
+  epochs_sensitivity: 100  # sensitivity sweeps
+  batch_size:     64
+  learning_rate:  0.0002
+  betas:          [0.5, 0.999]
+  seed:           42
+
+# ── Simulation ────────────────────────────────────────────────────────────────
+simulation:
+  detection_radius_ft:   700
+  n_officers:            60
+  reporting_probability: 0.521   # Pew Research 2019
+  p_base_detection:      0.85    # Noisy-OR base probability per officer
+  noisy_or_clip:         10      # max officers counted in Noisy-OR
+  modes:                 [detected, reported]
+  months:                [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]  # Feb-Dec
+
+# ── Sensitivity Analysis ──────────────────────────────────────────────────────
+sensitivity:
+  radii_ft:          [400, 700, 1000, 1500]
+  officer_counts:    [30, 60, 90, 120]
+  reporting_probs:   [0.30, 0.40, 0.521, 0.60, 0.70, 0.80]
+
+# ── CTGAN Debiasing ───────────────────────────────────────────────────────────
+debiasing:
+  ctgan_epochs:           200
+  samples_per_class:      600
+  synthetic_sample_size:  1800
+
+# ── Figures ───────────────────────────────────────────────────────────────────
+figures:
+  dpi:          300
+  formats:      [pdf, png]
+  font_family:  serif
+  palette:
+    black_majority:   "#1a1a2e"
+    white_majority:   "#6b6b6b"
+    neither_majority: "#bdbdbd"
+  hatch:
+    black_majority:   ""
+    white_majority:   "///"
+    neither_majority: "xxx"
