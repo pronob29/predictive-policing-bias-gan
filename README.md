@@ -1,7 +1,7 @@
 # Unmasking Algorithmic Bias in Predictive Policing
 ### A GAN-Based Simulation Framework
 
-Replication package for the paper submitted to [Conference Name].
+Replication package for the paper submitted to arXiv.
 
 ---
 
