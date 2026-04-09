@@ -210,12 +210,11 @@ Race-balanced synthetic training via CTGAN substantially redistributes simulated
 If you use this code or data, please cite:
 
 ```bibtex
-@inproceedings{author2025gan,
-  title     = {Unmasking Algorithmic Bias in Predictive Policing:
-               A GAN-Based Simulation Framework},
-  author    = {Author(s)},
-  booktitle = {Proceedings of [Conference]},
-  year      = {2025}
+@article{barman2026unmasking,
+  title={Unmasking Algorithmic Bias in Predictive Policing: A GAN-Based Simulation Framework with Multi-City Temporal Analysis},
+  author={Barman, Pronob Kumar and Barman, Pronoy Kumar},
+  journal={arXiv preprint arXiv:2603.18987},
+  year={2026}
 }
 ```
 
